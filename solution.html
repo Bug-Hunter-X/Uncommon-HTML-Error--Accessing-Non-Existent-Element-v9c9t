@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  <script>
+    let myElement = document.getElementById('nonExistent');
+    if (myElement) {
+      console.log(myElement.innerHTML);
+    } else {
+      console.log("Element with id 'nonExistent' not found.");
+    }
+  </script>
+</body>
+</html>
